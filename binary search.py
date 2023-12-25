@@ -10,8 +10,8 @@ def binary_search(arr, target):
             right = mid +1
         return -1
 # example sorted array and target value:
-arr = [1,2,3,4,5,6,7,8,9]
-target = 6
+arr = [10,80,60,60,55,60,65,70,70,75,76,78,79,90,99]
+target = 90
 # call the binary_search function
 index = binary_search(arr , target)
 # output the resut:
